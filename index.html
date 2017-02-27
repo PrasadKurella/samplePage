@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html data-ng-app="abcApp">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to Allied Business Consulting INC.</title>
+    
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/4.12.0/bootstrap-social.css" rel="stylesheet">
+
+    <link href="css/AngularCSS.css" rel="stylesheet" type="text/css"/>
+    <link href="css/Animation.css" rel="stylesheet" type="text/css"/>
+
+    <style type="css">
+        [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+            display: none !important;
+        }
+    </style>
+
+    <body ng-cloak>
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header ">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"></a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active navBarMenuClass"><a href="#/">Home</a></li>
+                        <li class="navBarMenuClass"><a href="#/aboutUs/">AboutUs</a></li>
+                        <li class="dropdown navBarMenuClass">
+                            <a href="#/services/" class="dropdown-toggle" data-toggle="dropdown"
+                             role="button" aria-haspopup="true" aria-expanded="false">
+                             Services <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#/services/">Overview</a></li>
+                                <li><a href="#">Domain Access</a></li>
+                                <li><a href="#">Staff Augmentation</a></li>
+                                <li><a href="#">Direct Placements</a></li>
+                                <li><a href="#">Offshore Servies</a></li>
+                                <li><a href="#">On Site Servies</a></li>
+                            </ul>
+                         </li>
+                        <li class="dropdown navBarMenuClass">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                             role="button" aria-haspopup="true" aria-expanded="false">
+                                Technology<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Overview</a></li>
+                                    <li><a href="#">Skill Sets</a></li>
+                                    <li><a href="#">Project Management</a></li>
+                                </ul>
+                            </a>
+                        </li>
+                        <li class="navBarMenuClass"><a href="#/orders/">Clients</a></li>
+                        <li class="dropdown navBarMenuClass">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                             role="button" aria-haspopup="true" aria-expanded="false">
+                                Careers<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Overview</a></li>
+                                    <li><a href="#">Training</a></li>
+                                    <li><a href="#">Employee Benefits</a></li>
+                                    <li><a href="#">Position Profile</a></li>
+                                    <li><a href="#">Submit Resume</a></li>
+                                    <li><a href="#">LCA Posts</a></li>
+                                </ul>
+                            </a>
+                        </li>
+                        <li class="dropdown navBarMenuClass">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                             role="button" aria-haspopup="true" aria-expanded="false">
+                                Employee<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Overview</a></li>
+                                    <li><a href="#">Consultant Corner</a></li>
+                                </ul>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#/orders/">Partnership</a></li>
+                        <li><a href="#/orders/">Contact Us</a></li>
+                        <li><a href="#/orders/">Admin Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav> 
+
+        <header class="jumbotron">
+            <div class="container">
+                <div class="row row-header">
+                    <span class="col-md-6 col-lg-6 hidden-sm hidden-xs">
+                         <a href="#"><img src="img/title.gif" height="70px" width="300px"></a>
+                    </span>
+                    <span class="col-xs-12 col-md-6 col-sm-6 col-lg-6" >
+                        <a href="#"><img src="img/titleindex.gif" height="70px" width="300px"></a>
+                    </span>
+                </div>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-xs-12 col-sm-8">
+                    <div ng-view class="slide-animation"></div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="row-footer">
+            <div class="container">
+                <div class="row">             
+                    <div class="col-xs-6 col-sm-2 col-sm-offset-1">
+                        <h5>Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6 col-sm-5">
+                        <h5>Our Address</h5>
+                        <address>
+                          295 Durham Avenue, Suite # 212,<br>
+                          South Plainfield, NJ 07080.<br>
+                          Tel: 908-222-7015<br>
+                          Fax: 908-834-0930<br>
+                          Email: <a href="mailto:info@abcinc-us.com">info@abcinc-us.com</a>
+                       </address>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <div style="padding: 40px 10px;">
+                            <a class="btn btn-social-icon btn-google-plus" href="http://google.com/Allied "><i class="fa fa-google-plus"></i></a>
+                            <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/company/allied-business-consulting-inc"><i class="fa fa-linkedin"></i></a>
+                            <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                            <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                            <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12">
+                        <p style="padding:10px;"></p>
+                        <p align="center">© Copyright 2017 Allied Business Consulting INC.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+
+        <script src="js/ng/angular.js"></script>
+        <script src="js/ng/angular-route.js"></script>
+        <script src="js/ng/angular-animate.js"></script>
+
+        <script src="apps/controllers/customerApp.js"></script>
+        <script src="apps/controllers/aboutUsController.js"></script>
+        <script src="apps/controllers/servicesCtrlController.js"></script>
+        <script src="apps/controllers/homePageController.js"></script>
+    </body>
+</html>
